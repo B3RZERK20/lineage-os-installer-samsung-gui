@@ -1,0 +1,3297 @@
+[
+  {
+    "codename": "a21s",
+    "name": "Galaxy A21s",
+    "models": [
+      "SM-A217F",
+      "SM-A217M",
+      "SM-A217F/DS",
+      "SM-A217F/DSN",
+      "SM-A217M/DS"
+    ],
+    "soc": "Samsung Exynos 850",
+    "architecture": "arm64",
+    "supported_versions": [
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "12",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/a21s/",
+    "builds_page_url": "https://download.lineageos.org/devices/a21s/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "a3xelte",
+    "name": "Galaxy A3 (2016)",
+    "models": [
+      "SM-A310F",
+      "SM-A310F/DS",
+      "SM-A310M",
+      "SM-A310N0",
+      "SM-A310Y"
+    ],
+    "soc": "Samsung Exynos 7578",
+    "architecture": "arm64",
+    "supported_versions": [
+      "16.0",
+      "17.1"
+    ],
+    "latest_lineage_version": "17.1",
+    "latest_android_version": "Android 10",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/a3xelte/",
+    "builds_page_url": "https://download.lineageos.org/devices/a3xelte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "a52q",
+    "name": "Galaxy A52 4G",
+    "models": [
+      "SM-A525F",
+      "SM-A525M",
+      "SM-A525F/DS",
+      "SM-A525M/DS"
+    ],
+    "soc": "Qualcomm SM7125 Snapdragon 720G",
+    "architecture": "arm64",
+    "supported_versions": [
+      "19.1",
+      "20",
+      "21",
+      "22.1",
+      "22.2",
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "13/14",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/a52q/",
+    "builds_page_url": "https://download.lineageos.org/devices/a52q/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "a52sxq",
+    "name": "Galaxy A52s 5G",
+    "models": [
+      "SM-A528B",
+      "SM-A528N",
+      "SM-A528B/DS"
+    ],
+    "soc": "Qualcomm SM7325 Snapdragon 778G 5G",
+    "architecture": "arm64",
+    "supported_versions": [
+      "20",
+      "21",
+      "22.1",
+      "22.2",
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "13/14",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/a52sxq/",
+    "builds_page_url": "https://download.lineageos.org/devices/a52sxq/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "a53x",
+    "name": "Galaxy A53 5G",
+    "models": [
+      "SM-A5360",
+      "SM-A536B",
+      "SM-A536B/DS",
+      "SM-A536E",
+      "SM-A536E/DS",
+      "SM-A536N"
+    ],
+    "soc": "Samsung Exynos 1280",
+    "architecture": "arm64",
+    "supported_versions": [
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "15",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/a53x/",
+    "builds_page_url": "https://download.lineageos.org/devices/a53x/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "a5xelte",
+    "name": "Galaxy A5 (2016)",
+    "models": [
+      "SM-A510F",
+      "SM-A510F/DS",
+      "SM-A510M",
+      "SM-A510Y",
+      "SM-A510K",
+      "SM-A510L",
+      "SM-A510S",
+      "SM-A5108"
+    ],
+    "soc": "Samsung Exynos 7580",
+    "architecture": "arm64",
+    "supported_versions": [
+      "16.0",
+      "17.1"
+    ],
+    "latest_lineage_version": "17.1",
+    "latest_android_version": "Android 10",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/a5xelte/",
+    "builds_page_url": "https://download.lineageos.org/devices/a5xelte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "a5y17lte",
+    "name": "Galaxy A5 (2017)",
+    "models": [
+      "SM-A520F",
+      "SM-A520F/DS",
+      "SM-A520K",
+      "SM-A520L",
+      "SM-A520S",
+      "SM-A520W"
+    ],
+    "soc": "Samsung Exynos 7880",
+    "architecture": "arm64",
+    "supported_versions": [
+      "14.1",
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "8.0",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/a5y17lte/",
+    "builds_page_url": "https://download.lineageos.org/devices/a5y17lte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "a71",
+    "name": "Galaxy A71",
+    "models": [
+      "SM-A715F",
+      "SM-A715F/DS",
+      "SM-A715F/DSN",
+      "SM-A715F/DSM"
+    ],
+    "soc": "Qualcomm SM7150-AA Snapdragon 730",
+    "architecture": "arm64",
+    "supported_versions": [
+      "21",
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2"
+    ],
+    "latest_lineage_version": "23.2",
+    "latest_android_version": "Android 16 (QPR2)",
+    "required_stock_android": "13",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/a71/",
+    "builds_page_url": "https://download.lineageos.org/devices/a71/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "a72q",
+    "name": "Galaxy A72",
+    "models": [
+      "SM-A725F",
+      "SM-A725M",
+      "SM-A725F/DS",
+      "SM-A725M/DS"
+    ],
+    "soc": "Qualcomm SM7125 Snapdragon 720G",
+    "architecture": "arm64",
+    "supported_versions": [
+      "19.1",
+      "20",
+      "21",
+      "22.1",
+      "22.2",
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "13/14",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/a72q/",
+    "builds_page_url": "https://download.lineageos.org/devices/a72q/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "a73xq",
+    "name": "Galaxy A73 5G",
+    "models": [
+      "SM-A736B",
+      "SM-A736B/DS"
+    ],
+    "soc": "Qualcomm SM7325 Snapdragon 778G 5G",
+    "architecture": "arm64",
+    "supported_versions": [
+      "20",
+      "21",
+      "22.1",
+      "22.2",
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "13/14/15",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/a73xq/",
+    "builds_page_url": "https://download.lineageos.org/devices/a73xq/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "a7xelte",
+    "name": "Galaxy A7 (2016)",
+    "models": [
+      "SM-A710F",
+      "SM-A710F/DS",
+      "SM-A710M",
+      "SM-A710Y",
+      "SM-A710K",
+      "SM-A710L",
+      "SM-A710S"
+    ],
+    "soc": "Samsung Exynos 7580",
+    "architecture": "arm64",
+    "supported_versions": [
+      "17.1"
+    ],
+    "latest_lineage_version": "17.1",
+    "latest_android_version": "Android 10",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/a7xelte/",
+    "builds_page_url": "https://download.lineageos.org/devices/a7xelte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "a7y17lte",
+    "name": "Galaxy A7 (2017)",
+    "models": [
+      "SM-A720F",
+      "SM-A720F/DS",
+      "SM-A720S"
+    ],
+    "soc": "Samsung Exynos 7880",
+    "architecture": "arm64",
+    "supported_versions": [
+      "14.1",
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "8.0",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/a7y17lte/",
+    "builds_page_url": "https://download.lineageos.org/devices/a7y17lte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "b0s",
+    "name": "Galaxy S22 Ultra",
+    "models": [
+      "SM-S908B",
+      "SM-S908B/DS"
+    ],
+    "soc": "Samsung Exynos 2200",
+    "architecture": "arm64",
+    "supported_versions": [
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "15",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/b0s/",
+    "builds_page_url": "https://download.lineageos.org/devices/b0s/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "beyond0lte",
+    "name": "Galaxy S10e",
+    "models": [
+      "SM-G970F",
+      "SM-G970F/DS",
+      "SM-G970N"
+    ],
+    "soc": "Samsung Exynos 9820",
+    "architecture": "arm64",
+    "supported_versions": [
+      "18.1",
+      "19.1",
+      "20",
+      "21",
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2"
+    ],
+    "latest_lineage_version": "23.2",
+    "latest_android_version": "Android 16 (QPR2)",
+    "required_stock_android": "12",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Bixby] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Bixby] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/beyond0lte/",
+    "builds_page_url": "https://download.lineageos.org/devices/beyond0lte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "beyond1lte",
+    "name": "Galaxy S10",
+    "models": [
+      "SM-G973F",
+      "SM-G973F/DS",
+      "SM-G973N"
+    ],
+    "soc": "Samsung Exynos 9820",
+    "architecture": "arm64",
+    "supported_versions": [
+      "18.1",
+      "19.1",
+      "20",
+      "21",
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2"
+    ],
+    "latest_lineage_version": "23.2",
+    "latest_android_version": "Android 16 (QPR2)",
+    "required_stock_android": "12",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Bixby] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Bixby] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/beyond1lte/",
+    "builds_page_url": "https://download.lineageos.org/devices/beyond1lte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "beyond2lte",
+    "name": "Galaxy S10+",
+    "models": [
+      "SM-G975F",
+      "SM-G975F/DS",
+      "SM-G975N"
+    ],
+    "soc": "Samsung Exynos 9820",
+    "architecture": "arm64",
+    "supported_versions": [
+      "18.1",
+      "19.1",
+      "20",
+      "21",
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2"
+    ],
+    "latest_lineage_version": "23.2",
+    "latest_android_version": "Android 16 (QPR2)",
+    "required_stock_android": "12",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Bixby] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Bixby] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/beyond2lte/",
+    "builds_page_url": "https://download.lineageos.org/devices/beyond2lte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "beyondx",
+    "name": "Galaxy S10 5G",
+    "models": [
+      "SM-G977B",
+      "SM-G977N"
+    ],
+    "soc": "Samsung Exynos 9820",
+    "architecture": "arm64",
+    "supported_versions": [
+      "18.1",
+      "19.1",
+      "20",
+      "21",
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2"
+    ],
+    "latest_lineage_version": "23.2",
+    "latest_android_version": "Android 16 (QPR2)",
+    "required_stock_android": "12",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Bixby] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Bixby] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/beyondx/",
+    "builds_page_url": "https://download.lineageos.org/devices/beyondx/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "c1s",
+    "name": "Galaxy Note20 (4G/5G)",
+    "models": [
+      "SM-N980F",
+      "SM-N980F/DS",
+      "SM-N981B",
+      "SM-N981B/DS"
+    ],
+    "soc": "Samsung Exynos 990",
+    "architecture": "arm64",
+    "supported_versions": [
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "13",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/c1s/",
+    "builds_page_url": "https://download.lineageos.org/devices/c1s/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "c2s",
+    "name": "Galaxy Note20 Ultra (4G/5G)",
+    "models": [
+      "SM-N985F",
+      "SM-N985F/DS",
+      "SM-N986B",
+      "SM-N986B/DS"
+    ],
+    "soc": "Samsung Exynos 990",
+    "architecture": "arm64",
+    "supported_versions": [
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "13",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/c2s/",
+    "builds_page_url": "https://download.lineageos.org/devices/c2s/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "chagalllte",
+    "name": "Galaxy Tab S 10.5 LTE",
+    "models": [
+      "SM-T805"
+    ],
+    "soc": "Samsung Exynos 5420",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/chagalllte/",
+    "builds_page_url": "https://download.lineageos.org/devices/chagalllte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "chagallwifi",
+    "name": "Galaxy Tab S 10.5 Wi-Fi",
+    "models": [
+      "SM-T800"
+    ],
+    "soc": "Samsung Exynos 5420",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/chagallwifi/",
+    "builds_page_url": "https://download.lineageos.org/devices/chagallwifi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "crownlte",
+    "name": "Galaxy Note 9",
+    "models": [
+      "SM-N960F",
+      "SM-N960F/DS",
+      "SM-N960N"
+    ],
+    "soc": "Samsung Exynos 9810",
+    "architecture": "arm64",
+    "supported_versions": [
+      "17.1",
+      "20"
+    ],
+    "latest_lineage_version": "20",
+    "latest_android_version": "Android 13",
+    "required_stock_android": "10",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Bixby] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Bixby] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/crownlte/",
+    "builds_page_url": "https://download.lineageos.org/devices/crownlte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "d1",
+    "name": "Galaxy Note10",
+    "models": [
+      "SM-N970F",
+      "SM-N970F/DS"
+    ],
+    "soc": "Samsung Exynos 9825",
+    "architecture": "arm64",
+    "supported_versions": [
+      "18.1",
+      "19.1",
+      "20",
+      "21",
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2"
+    ],
+    "latest_lineage_version": "23.2",
+    "latest_android_version": "Android 16 (QPR2)",
+    "required_stock_android": "12",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Volume Up] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/d1/",
+    "builds_page_url": "https://download.lineageos.org/devices/d1/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "d1x",
+    "name": "Galaxy Note10 5G",
+    "models": [
+      "SM-N971N"
+    ],
+    "soc": "Samsung Exynos 9825",
+    "architecture": "arm64",
+    "supported_versions": [
+      "21",
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2"
+    ],
+    "latest_lineage_version": "23.2",
+    "latest_android_version": "Android 16 (QPR2)",
+    "required_stock_android": "12",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Volume Up] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/d1x/",
+    "builds_page_url": "https://download.lineageos.org/devices/d1x/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "d2att",
+    "name": "Galaxy S III (AT&T)",
+    "models": [
+      "SGH-I747",
+      "SGH-I747M"
+    ],
+    "soc": "Qualcomm MSM8960 Snapdragon S4 Plus",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/d2att/",
+    "builds_page_url": "https://download.lineageos.org/devices/d2att/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "d2s",
+    "name": "Galaxy Note10+",
+    "models": [
+      "SM-N975F",
+      "SM-N975F/DS"
+    ],
+    "soc": "Samsung Exynos 9825",
+    "architecture": "arm64",
+    "supported_versions": [
+      "18.1",
+      "19.1",
+      "20",
+      "21",
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2"
+    ],
+    "latest_lineage_version": "23.2",
+    "latest_android_version": "Android 16 (QPR2)",
+    "required_stock_android": "12",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Volume Up] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/d2s/",
+    "builds_page_url": "https://download.lineageos.org/devices/d2s/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "d2spr",
+    "name": "Galaxy S III (Sprint)",
+    "models": [
+      "SPH-L710"
+    ],
+    "soc": "Qualcomm MSM8960 Snapdragon S4 Plus",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/d2spr/",
+    "builds_page_url": "https://download.lineageos.org/devices/d2spr/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "d2tmo",
+    "name": "Galaxy S III (T-Mobile)",
+    "models": [
+      "SGH-T999"
+    ],
+    "soc": "Qualcomm MSM8960 Snapdragon S4 Plus",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/d2tmo/",
+    "builds_page_url": "https://download.lineageos.org/devices/d2tmo/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "d2vzw",
+    "name": "Galaxy S III (Verizon)",
+    "models": [
+      "SCH-I535"
+    ],
+    "soc": "Qualcomm MSM8960 Snapdragon S4 Plus",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/d2vzw/",
+    "builds_page_url": "https://download.lineageos.org/devices/d2vzw/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "d2x",
+    "name": "Galaxy Note10+ 5G",
+    "models": [
+      "SM-N976B",
+      "SM-N976N"
+    ],
+    "soc": "Samsung Exynos 9825",
+    "architecture": "arm64",
+    "supported_versions": [
+      "18.1",
+      "19.1",
+      "20",
+      "21",
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2"
+    ],
+    "latest_lineage_version": "23.2",
+    "latest_android_version": "Android 16 (QPR2)",
+    "required_stock_android": "12",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Volume Up] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/d2x/",
+    "builds_page_url": "https://download.lineageos.org/devices/d2x/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "dm1q",
+    "name": "Galaxy S23",
+    "models": [
+      "SM-S911B",
+      "SM-S911B/DS"
+    ],
+    "soc": "Qualcomm SM8550 Snapdragon 8 Gen2",
+    "architecture": "arm64",
+    "supported_versions": [
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "15",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/dm1q/",
+    "builds_page_url": "https://download.lineageos.org/devices/dm1q/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "espresso3g",
+    "name": "Galaxy Tab 2 7.0 (GSM)",
+    "models": [
+      "P3100",
+      "P5100"
+    ],
+    "soc": "TI OMAP4430",
+    "architecture": "arm",
+    "supported_versions": [
+      "13.0"
+    ],
+    "latest_lineage_version": "13.0",
+    "latest_android_version": "LineageOS 13.0",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/espresso3g/",
+    "builds_page_url": "https://download.lineageos.org/devices/espresso3g/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "espresso3g",
+    "name": "Galaxy Tab 2 10.1 (GSM)",
+    "models": [
+      "P3100",
+      "P5100"
+    ],
+    "soc": "TI OMAP4430",
+    "architecture": "arm",
+    "supported_versions": [
+      "13.0"
+    ],
+    "latest_lineage_version": "13.0",
+    "latest_android_version": "LineageOS 13.0",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/espresso3g/",
+    "builds_page_url": "https://download.lineageos.org/devices/espresso3g/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "espressowifi",
+    "name": "Galaxy Tab 2 7.0 (Wi-Fi / Wi-Fi + IR)",
+    "models": [
+      "P3110",
+      "P3113",
+      "P5110",
+      "P5113"
+    ],
+    "soc": "TI OMAP4430",
+    "architecture": "arm",
+    "supported_versions": [
+      "13.0"
+    ],
+    "latest_lineage_version": "13.0",
+    "latest_android_version": "LineageOS 13.0",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Down] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/espressowifi/",
+    "builds_page_url": "https://download.lineageos.org/devices/espressowifi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "espressowifi",
+    "name": "Galaxy Tab 2 10.1 (Wi-Fi / Wi-Fi + IR)",
+    "models": [
+      "P3110",
+      "P3113",
+      "P5110",
+      "P5113"
+    ],
+    "soc": "TI OMAP4430",
+    "architecture": "arm",
+    "supported_versions": [
+      "13.0"
+    ],
+    "latest_lineage_version": "13.0",
+    "latest_android_version": "LineageOS 13.0",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Down] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/espressowifi/",
+    "builds_page_url": "https://download.lineageos.org/devices/espressowifi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "f62",
+    "name": "Galaxy F62",
+    "models": [
+      "SM-E625F",
+      "SM-E625F/DS"
+    ],
+    "soc": "Samsung Exynos 9825",
+    "architecture": "arm64",
+    "supported_versions": [
+      "20",
+      "21",
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2"
+    ],
+    "latest_lineage_version": "23.2",
+    "latest_android_version": "Android 16 (QPR2)",
+    "required_stock_android": "13",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Volume Up] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/f62/",
+    "builds_page_url": "https://download.lineageos.org/devices/f62/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "f62",
+    "name": "Galaxy M62",
+    "models": [
+      "SM-M625F",
+      "SM-M625F/DS"
+    ],
+    "soc": "Samsung Exynos 9825",
+    "architecture": "arm64",
+    "supported_versions": [
+      "20",
+      "21",
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2"
+    ],
+    "latest_lineage_version": "23.2",
+    "latest_android_version": "Android 16 (QPR2)",
+    "required_stock_android": "13",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Volume Up] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/f62/",
+    "builds_page_url": "https://download.lineageos.org/devices/f62/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "g0s",
+    "name": "Galaxy S22+",
+    "models": [
+      "SM-S906B",
+      "SM-S906B/DS"
+    ],
+    "soc": "Samsung Exynos 2200",
+    "architecture": "arm64",
+    "supported_versions": [
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "15",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/g0s/",
+    "builds_page_url": "https://download.lineageos.org/devices/g0s/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "gta4l",
+    "name": "Galaxy Tab A7 10.4 2020 (LTE)",
+    "models": [
+      "SM-T505",
+      "SM-T505C",
+      "SM-T505N",
+      "SM-T507"
+    ],
+    "soc": "Qualcomm SM6115 Snapdragon 662",
+    "architecture": "arm64",
+    "supported_versions": [
+      "20",
+      "21",
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "12",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Volume Up] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/gta4l/",
+    "builds_page_url": "https://download.lineageos.org/devices/gta4l/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "gta4lwifi",
+    "name": "Galaxy Tab A7 10.4 2020 (Wi-Fi)",
+    "models": [
+      "SM-T500"
+    ],
+    "soc": "Qualcomm SM6115 Snapdragon 662",
+    "architecture": "arm64",
+    "supported_versions": [
+      "20",
+      "21",
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "12",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Volume Up] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/gta4lwifi/",
+    "builds_page_url": "https://download.lineageos.org/devices/gta4lwifi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "gta4xl",
+    "name": "Galaxy Tab S6 Lite (LTE)",
+    "models": [
+      "SM-P615"
+    ],
+    "soc": "Samsung Exynos 9611",
+    "architecture": "arm64",
+    "supported_versions": [
+      "18.1",
+      "19.1",
+      "20",
+      "21",
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2"
+    ],
+    "latest_lineage_version": "23.2",
+    "latest_android_version": "Android 16 (QPR2)",
+    "required_stock_android": "13",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Volume Up] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/gta4xl/",
+    "builds_page_url": "https://download.lineageos.org/devices/gta4xl/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "gta4xlswifi",
+    "name": "Galaxy Tab S6 Lite 2024 (Wi-Fi)",
+    "models": [
+      "SM-P620"
+    ],
+    "soc": "Samsung Exynos 1280",
+    "architecture": "arm64",
+    "supported_versions": [
+      "23.2"
+    ],
+    "latest_lineage_version": "23.2",
+    "latest_android_version": "Android 16 (QPR2)",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Volume Up] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/gta4xlswifi/",
+    "builds_page_url": "https://download.lineageos.org/devices/gta4xlswifi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "gta4xlwifi",
+    "name": "Galaxy Tab S6 Lite (Wi-Fi)",
+    "models": [
+      "SM-P610"
+    ],
+    "soc": "Samsung Exynos 9611",
+    "architecture": "arm64",
+    "supported_versions": [
+      "17.1",
+      "18.1",
+      "19.1",
+      "20",
+      "21",
+      "22.1",
+      "22.2",
+      "23.0",
+      "23.2"
+    ],
+    "latest_lineage_version": "23.2",
+    "latest_android_version": "Android 16 (QPR2)",
+    "required_stock_android": "13",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Volume Up] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/gta4xlwifi/",
+    "builds_page_url": "https://download.lineageos.org/devices/gta4xlwifi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "gtelwifiue",
+    "name": "Galaxy Tab E 9.6 (WiFi)",
+    "models": [
+      "SM-T560NU"
+    ],
+    "soc": "Qualcomm MSM8916 Snapdragon 410",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/gtelwifiue/",
+    "builds_page_url": "https://download.lineageos.org/devices/gtelwifiue/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "gtesqltespr",
+    "name": "Galaxy Tab E 8.0 LTE (Sprint)",
+    "models": [
+      "SM-T377P"
+    ],
+    "soc": "Qualcomm MSM8916 Snapdragon 410",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/gtesqltespr/",
+    "builds_page_url": "https://download.lineageos.org/devices/gtesqltespr/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "gtowifi",
+    "name": "Galaxy Tab A 8.0 (2019)",
+    "models": [
+      "SM-T290"
+    ],
+    "soc": "Qualcomm SDM429 Snapdragon 429",
+    "architecture": "arm64",
+    "supported_versions": [
+      "20",
+      "21",
+      "22.2"
+    ],
+    "latest_lineage_version": "22.2",
+    "latest_android_version": "Android 15 (QPR2)",
+    "required_stock_android": "11",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With USB plugged in, hold [Volume up] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/gtowifi/",
+    "builds_page_url": "https://download.lineageos.org/devices/gtowifi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "gts210ltexx",
+    "name": "Galaxy Tab S2 9.7 (LTE)",
+    "models": [
+      "SM-T815"
+    ],
+    "soc": "Samsung Exynos 5433",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/gts210ltexx/",
+    "builds_page_url": "https://download.lineageos.org/devices/gts210ltexx/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "gts210vewifi",
+    "name": "Galaxy Tab S2 9.7 Wi-Fi (2016)",
+    "models": [
+      "SM-T813"
+    ],
+    "soc": "Qualcomm MSM8976 Snapdragon 652",
+    "architecture": "arm64",
+    "supported_versions": [
+      "14.1",
+      "15.1",
+      "16.0"
+    ],
+    "latest_lineage_version": "16.0",
+    "latest_android_version": "Android 9 Pie",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/gts210vewifi/",
+    "builds_page_url": "https://download.lineageos.org/devices/gts210vewifi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "gts210wifi",
+    "name": "Galaxy Tab S2 9.7 (Wi-Fi)",
+    "models": [
+      "SM-T810"
+    ],
+    "soc": "Samsung Exynos 5433",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/gts210wifi/",
+    "builds_page_url": "https://download.lineageos.org/devices/gts210wifi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "gts28vewifi",
+    "name": "Galaxy Tab S2 8.0 Wi-Fi (2016)",
+    "models": [
+      "SM-T713"
+    ],
+    "soc": "Qualcomm MSM8976 Snapdragon 652",
+    "architecture": "arm64",
+    "supported_versions": [
+      "14.1",
+      "15.1",
+      "16.0"
+    ],
+    "latest_lineage_version": "16.0",
+    "latest_android_version": "Android 9 Pie",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/gts28vewifi/",
+    "builds_page_url": "https://download.lineageos.org/devices/gts28vewifi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "gts4lv",
+    "name": "Galaxy Tab S5e (LTE)",
+    "models": [
+      "SM-T725",
+      "SM-T725C",
+      "SM-T725N",
+      "SM-T727"
+    ],
+    "soc": "Qualcomm SDM670 Snapdragon 670",
+    "architecture": "arm64",
+    "supported_versions": [
+      "17.1",
+      "18.1",
+      "19.1",
+      "20",
+      "21",
+      "22.1",
+      "22.2"
+    ],
+    "latest_lineage_version": "22.2",
+    "latest_android_version": "Android 15 (QPR2)",
+    "required_stock_android": "11",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With USB plugged in, hold [Volume up] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/gts4lv/",
+    "builds_page_url": "https://download.lineageos.org/devices/gts4lv/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "gts4lvwifi",
+    "name": "Galaxy Tab S5e (Wi-Fi)",
+    "models": [
+      "SM-T720",
+      "SM-T720N"
+    ],
+    "soc": "Qualcomm SDM670 Snapdragon 670",
+    "architecture": "arm64",
+    "supported_versions": [
+      "17.1",
+      "18.1",
+      "19.1",
+      "20",
+      "21",
+      "22.1",
+      "22.2"
+    ],
+    "latest_lineage_version": "22.2",
+    "latest_android_version": "Android 15 (QPR2)",
+    "required_stock_android": "11",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With USB plugged in, hold [Volume up] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/gts4lvwifi/",
+    "builds_page_url": "https://download.lineageos.org/devices/gts4lvwifi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "gts7l",
+    "name": "Galaxy Tab S7 (LTE)",
+    "models": [
+      "SM-T875"
+    ],
+    "soc": "Qualcomm SM8250-AB Snapdragon 865+",
+    "architecture": "arm64",
+    "supported_versions": [
+      "22.2",
+      "23.0",
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "13",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With USB plugged in, hold [Volume up] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/gts7l/",
+    "builds_page_url": "https://download.lineageos.org/devices/gts7l/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "gts7lwifi",
+    "name": "Galaxy Tab S7 (Wi-Fi)",
+    "models": [
+      "SM-T870"
+    ],
+    "soc": "Qualcomm SM8250-AB Snapdragon 865+",
+    "architecture": "arm64",
+    "supported_versions": [
+      "22.2",
+      "23.0",
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "13",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With USB plugged in, hold [Volume up] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/gts7lwifi/",
+    "builds_page_url": "https://download.lineageos.org/devices/gts7lwifi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "gts7xl",
+    "name": "Galaxy Tab S7+ (LTE/5G)",
+    "models": [
+      "SM-T975",
+      "SM-T976B"
+    ],
+    "soc": "Qualcomm SM8250-AB Snapdragon 865+",
+    "architecture": "arm64",
+    "supported_versions": [
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "13",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With USB plugged in, hold [Volume up] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/gts7xl/",
+    "builds_page_url": "https://download.lineageos.org/devices/gts7xl/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "gts7xlwifi",
+    "name": "Galaxy Tab S7+ (Wi-Fi)",
+    "models": [
+      "SM-T970"
+    ],
+    "soc": "Qualcomm SM8250-AB Snapdragon 865+",
+    "architecture": "arm64",
+    "supported_versions": [
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "13",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With USB plugged in, hold [Volume up] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/gts7xlwifi/",
+    "builds_page_url": "https://download.lineageos.org/devices/gts7xlwifi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "ha3g",
+    "name": "Galaxy Note 3 (International 3G)",
+    "models": [
+      "SM-N9000"
+    ],
+    "soc": "Samsung Exynos 5420",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/ha3g/",
+    "builds_page_url": "https://download.lineageos.org/devices/ha3g/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "hero2lte",
+    "name": "Galaxy S7 Edge",
+    "models": [
+      "SM-G935F",
+      "SM-G935FD",
+      "SM-G935S",
+      "SM-G935K",
+      "SM-G935L",
+      "SM-G935W8"
+    ],
+    "soc": "Samsung Exynos 8890",
+    "architecture": "arm64",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/hero2lte/",
+    "builds_page_url": "https://download.lineageos.org/devices/hero2lte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "herolte",
+    "name": "Galaxy S7",
+    "models": [
+      "SM-G930F",
+      "SM-G930FD",
+      "SM-G930S",
+      "SM-G930K",
+      "SM-G930L",
+      "SM-G930W8"
+    ],
+    "soc": "Samsung Exynos 8890",
+    "architecture": "arm64",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/herolte/",
+    "builds_page_url": "https://download.lineageos.org/devices/herolte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "hlte",
+    "name": "Galaxy Note 3 LTE (N9005/P)",
+    "models": [
+      "SM-N9005",
+      "SM-N900P"
+    ],
+    "soc": "Qualcomm MSM8974 Snapdragon 800",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1",
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/hlte/",
+    "builds_page_url": "https://download.lineageos.org/devices/hlte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "hltechn",
+    "name": "Galaxy Note 3 LTE (N9008V)",
+    "models": [
+      "SM-N9008V"
+    ],
+    "soc": "Qualcomm MSM8974 Snapdragon 800",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1",
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/hltechn/",
+    "builds_page_url": "https://download.lineageos.org/devices/hltechn/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "hltekor",
+    "name": "Galaxy Note 3 LTE (N900K/L/S)",
+    "models": [
+      "SM-N900K",
+      "SM-N900L",
+      "SM-N900S"
+    ],
+    "soc": "Qualcomm MSM8974 Snapdragon 800",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1",
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/hltekor/",
+    "builds_page_url": "https://download.lineageos.org/devices/hltekor/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "hltetmo",
+    "name": "Galaxy Note 3 LTE (N900T/V/W8)",
+    "models": [
+      "SM-N900T",
+      "SM-N900V",
+      "SM-N900W8"
+    ],
+    "soc": "Qualcomm MSM8974 Snapdragon 800",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1",
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/hltetmo/",
+    "builds_page_url": "https://download.lineageos.org/devices/hltetmo/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "i9100",
+    "name": "Galaxy S II",
+    "models": [
+      "GT-I9100",
+      "GT-I9100T",
+      "GT-I9100M",
+      "GT-I9100P",
+      "SC-02C"
+    ],
+    "soc": "Samsung Exynos 4210",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/i9100/",
+    "builds_page_url": "https://download.lineageos.org/devices/i9100/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "i9300",
+    "name": "Galaxy S III (International)",
+    "models": [
+      "GT-I9300",
+      "GT-I9300T"
+    ],
+    "soc": "Samsung Exynos 4412",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/i9300/",
+    "builds_page_url": "https://download.lineageos.org/devices/i9300/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "i9305",
+    "name": "Galaxy S III (LTE / International)",
+    "models": [
+      "GT-I9305",
+      "GT-I9305T",
+      "GT-I9305N"
+    ],
+    "soc": "Samsung Exynos 4412",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/i9305/",
+    "builds_page_url": "https://download.lineageos.org/devices/i9305/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "j7elte",
+    "name": "Galaxy J7 (2015)",
+    "models": [
+      "SM-J700F",
+      "SM-J700F/DS",
+      "SM-J700H",
+      "SM-J700M"
+    ],
+    "soc": "Samsung Exynos 7580",
+    "architecture": "arm64",
+    "supported_versions": [
+      "17.1"
+    ],
+    "latest_lineage_version": "17.1",
+    "latest_android_version": "Android 10",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/j7elte/",
+    "builds_page_url": "https://download.lineageos.org/devices/j7elte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "jactivelte",
+    "name": "Galaxy S4 Active",
+    "models": [
+      "GT-I9295"
+    ],
+    "soc": "Qualcomm APQ8064T Snapdragon 600",
+    "architecture": "arm",
+    "supported_versions": [
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power]. Let go of [Power] immediately when the phone vibrates, but keep holding the two other keys.",
+    "wiki_url": "https://wiki.lineageos.org/devices/jactivelte/",
+    "builds_page_url": "https://download.lineageos.org/devices/jactivelte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "jflteatt",
+    "name": "Galaxy S4 (SGH-I337)",
+    "models": [
+      "SGH-I337"
+    ],
+    "soc": "Qualcomm APQ8064T Snapdragon 600",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1",
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "",
+    "install_method": "oor",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power]. Let go of [Power] immediately when the phone vibrates, but keep holding the two other keys.",
+    "wiki_url": "https://wiki.lineageos.org/devices/jflteatt/",
+    "builds_page_url": "https://download.lineageos.org/devices/jflteatt/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "jfltespr",
+    "name": "Galaxy S4 (SCH-R970, SPH-L720)",
+    "models": [
+      "SCH-R970/C/X",
+      "SPH-L720"
+    ],
+    "soc": "Qualcomm APQ8064T Snapdragon 600",
+    "architecture": "arm",
+    "supported_versions": [
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power]. Let go of [Power] immediately when the phone vibrates, but keep holding the two other keys.",
+    "wiki_url": "https://wiki.lineageos.org/devices/jfltespr/",
+    "builds_page_url": "https://download.lineageos.org/devices/jfltespr/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "jfltevzw",
+    "name": "Galaxy S4 (SCH-I545)",
+    "models": [
+      "SCH-I545"
+    ],
+    "soc": "Qualcomm APQ8064T Snapdragon 600",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1",
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "",
+    "install_method": "oor",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power]. Let go of [Power] immediately when the phone vibrates, but keep holding the two other keys.",
+    "wiki_url": "https://wiki.lineageos.org/devices/jfltevzw/",
+    "builds_page_url": "https://download.lineageos.org/devices/jfltevzw/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "jfltexx",
+    "name": "Galaxy S4 (GT-I9505, SGH-I337M, SGH-M919/V)",
+    "models": [
+      "GT-I9505",
+      "SGH-I337M",
+      "SGH-M919",
+      "SGH-M919V"
+    ],
+    "soc": "Qualcomm APQ8064T Snapdragon 600",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1",
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power]. Let go of [Power] immediately when the phone vibrates, but keep holding the two other keys.",
+    "wiki_url": "https://wiki.lineageos.org/devices/jfltexx/",
+    "builds_page_url": "https://download.lineageos.org/devices/jfltexx/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "jfvelte",
+    "name": "Galaxy S4 Value Edition (GT-I9515/L)",
+    "models": [
+      "GT-I9515",
+      "GT-I9515L"
+    ],
+    "soc": "Qualcomm APQ8064T Snapdragon 600",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1",
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power]. Let go of [Power] immediately when the phone vibrates, but keep holding the two other keys.",
+    "wiki_url": "https://wiki.lineageos.org/devices/jfvelte/",
+    "builds_page_url": "https://download.lineageos.org/devices/jfvelte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "k3gxx",
+    "name": "Galaxy S5 (International 3G)",
+    "models": [
+      "SM-G900H"
+    ],
+    "soc": "Samsung Exynos 5422",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/k3gxx/",
+    "builds_page_url": "https://download.lineageos.org/devices/k3gxx/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "kccat6",
+    "name": "Galaxy S5 Plus",
+    "models": [
+      "SM-G901F"
+    ],
+    "soc": "Qualcomm APQ8084 Snapdragon 805",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1",
+      "15.1",
+      "16.0"
+    ],
+    "latest_lineage_version": "16.0",
+    "latest_android_version": "Android 9 Pie",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power]. In order to exit download mode and reboot, hold [Volume Down] + [Power] for about 7 seconds.",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/kccat6/",
+    "builds_page_url": "https://download.lineageos.org/devices/kccat6/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "klimtwifi",
+    "name": "Galaxy Tab S 8.4 Wi-Fi",
+    "models": [
+      "SM-T700"
+    ],
+    "soc": "Samsung Exynos 5420",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/klimtwifi/",
+    "builds_page_url": "https://download.lineageos.org/devices/klimtwifi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "klte",
+    "name": "Galaxy S5 LTE (G900F/M/R4/R7/T/T3/V/W8)",
+    "models": [
+      "SM-G900F",
+      "SM-G900M",
+      "SM-G900R4",
+      "SM-G900R7",
+      "SM-G900T",
+      "SM-G900T3",
+      "SM-G900V",
+      "SM-G900W8"
+    ],
+    "soc": "Qualcomm MSM8974AC Snapdragon 801",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1",
+      "15.1",
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "6.0.1",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/klte/",
+    "builds_page_url": "https://download.lineageos.org/devices/klte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "klteactivexx",
+    "name": "Galaxy S5 Active (G870F)",
+    "models": [
+      "SM-G870F"
+    ],
+    "soc": "Qualcomm MSM8974PRO Snapdragon 801",
+    "architecture": "arm",
+    "supported_versions": [
+      "15.1",
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/klteactivexx/",
+    "builds_page_url": "https://download.lineageos.org/devices/klteactivexx/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "klteaio",
+    "name": "Galaxy S5 LTE (G900AZ/S902L)",
+    "models": [
+      "SM-G900AZ",
+      "SM-S902L"
+    ],
+    "soc": "Qualcomm MSM8974AC Snapdragon 801",
+    "architecture": "arm",
+    "supported_versions": [
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/klteaio/",
+    "builds_page_url": "https://download.lineageos.org/devices/klteaio/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "kltechn",
+    "name": "Galaxy S5 LTE (G9006V/8V)",
+    "models": [
+      "SM-G9006V",
+      "SM-G9008V"
+    ],
+    "soc": "Qualcomm MSM8974AC Snapdragon 801",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1",
+      "15.1",
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "6.0.1",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power]",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/kltechn/",
+    "builds_page_url": "https://download.lineageos.org/devices/kltechn/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "kltechnduo",
+    "name": "Galaxy S5 LTE Duos (G9006W/8W)",
+    "models": [
+      "SM-G9006W",
+      "SM-G9008W",
+      "SM-G9009W"
+    ],
+    "soc": "Qualcomm MSM8974AC Snapdragon 801",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1",
+      "15.1",
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "6.0.1",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/kltechnduo/",
+    "builds_page_url": "https://download.lineageos.org/devices/kltechnduo/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "klteduos",
+    "name": "Galaxy S5 LTE Duos (G900FD/MD)",
+    "models": [
+      "SM-G900FD",
+      "SM-G900MD"
+    ],
+    "soc": "Qualcomm MSM8974AC Snapdragon 801",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1",
+      "15.1",
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "6.0.1",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/klteduos/",
+    "builds_page_url": "https://download.lineageos.org/devices/klteduos/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "kltedv",
+    "name": "Galaxy S5 LTE (G900I/P)",
+    "models": [
+      "SM-G900I",
+      "SM-G900P"
+    ],
+    "soc": "Qualcomm MSM8974AC Snapdragon 801",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1",
+      "15.1",
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "6.0.1",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/kltedv/",
+    "builds_page_url": "https://download.lineageos.org/devices/kltedv/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "kltekdi",
+    "name": "Galaxy S5 LTE (SC-04F/SCL23)",
+    "models": [
+      "SC-04F",
+      "SCL23"
+    ],
+    "soc": "Qualcomm MSM8974AC Snapdragon 801",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1",
+      "15.1",
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "6.0.1",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/kltekdi/",
+    "builds_page_url": "https://download.lineageos.org/devices/kltekdi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "kltekor",
+    "name": "Galaxy S5 LTE (G900K/L/S)",
+    "models": [
+      "SM-G900K",
+      "SM-G900L",
+      "SM-G900S"
+    ],
+    "soc": "Qualcomm MSM8974AC Snapdragon 801",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1",
+      "15.1",
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "6.0.1",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/kltekor/",
+    "builds_page_url": "https://download.lineageos.org/devices/kltekor/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "kltesprsports",
+    "name": "Galaxy S5 Sport",
+    "models": [
+      "SM-G860P"
+    ],
+    "soc": "Qualcomm MSM8974AC Snapdragon 801",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/kltesprsports/",
+    "builds_page_url": "https://download.lineageos.org/devices/kltesprsports/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "ks01lte",
+    "name": "Galaxy S4 LTE-A (GT-I9506)",
+    "models": [
+      "GT-I9506"
+    ],
+    "soc": "Qualcomm MSM8974 Snapdragon 800",
+    "architecture": "arm",
+    "supported_versions": [
+      "13.0"
+    ],
+    "latest_lineage_version": "13.0",
+    "latest_android_version": "LineageOS 13.0",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/ks01lte/",
+    "builds_page_url": "https://download.lineageos.org/devices/ks01lte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "lentislte",
+    "name": "Galaxy S5 LTE-A",
+    "models": [
+      "SM-G906S",
+      "SM-G906K",
+      "SM-G906L"
+    ],
+    "soc": "Qualcomm APQ8084 Snapdragon 805",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1",
+      "15.1",
+      "16.0"
+    ],
+    "latest_lineage_version": "16.0",
+    "latest_android_version": "Android 9 Pie",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power]. In order to exit download mode and reboot, hold [Volume Down] + [Power] for about 7 seconds.",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/lentislte/",
+    "builds_page_url": "https://download.lineageos.org/devices/lentislte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "lt02ltespr",
+    "name": "Galaxy Tab 3 7.0 LTE",
+    "models": [
+      "SM-T217S"
+    ],
+    "soc": "Qualcomm MSM8930AB Snapdragon 400",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/lt02ltespr/",
+    "builds_page_url": "https://download.lineageos.org/devices/lt02ltespr/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "lt03lte",
+    "name": "Galaxy Note 10.1 2014 (LTE)",
+    "models": [],
+    "soc": "Qualcomm MSM8974 Snapdragon 800",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/lt03lte/",
+    "builds_page_url": "https://download.lineageos.org/devices/lt03lte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "m20lte",
+    "name": "Galaxy M20",
+    "models": [
+      "SM-M205F",
+      "SM-M205FN",
+      "SM-M205G",
+      "SM-M205M",
+      "SM-M205N"
+    ],
+    "soc": "Samsung Exynos 7904",
+    "architecture": "arm64",
+    "supported_versions": [
+      "18.1",
+      "22.2"
+    ],
+    "latest_lineage_version": "22.2",
+    "latest_android_version": "Android 15 (QPR2)",
+    "required_stock_android": "10",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Volume Up] then connect USB cable to PC.",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/m20lte/",
+    "builds_page_url": "https://download.lineageos.org/devices/m20lte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "m52xq",
+    "name": "Galaxy M52 5G",
+    "models": [
+      "SM-M526B",
+      "SM-M526BR",
+      "SM-M526B/DS",
+      "SM-M526BR/DS"
+    ],
+    "soc": "Qualcomm SM7325 Snapdragon 778G 5G",
+    "architecture": "arm64",
+    "supported_versions": [
+      "20",
+      "21",
+      "22.1",
+      "22.2",
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "13",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/m52xq/",
+    "builds_page_url": "https://download.lineageos.org/devices/m52xq/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "mondrianwifi",
+    "name": "Galaxy Tab Pro 8.4",
+    "models": [],
+    "soc": "Qualcomm MSM8974 Snapdragon 800",
+    "architecture": "arm",
+    "supported_versions": [
+      "13.0"
+    ],
+    "latest_lineage_version": "13.0",
+    "latest_android_version": "LineageOS 13.0",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] while booting.",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] while booting.",
+    "wiki_url": "https://wiki.lineageos.org/devices/mondrianwifi/",
+    "builds_page_url": "https://download.lineageos.org/devices/mondrianwifi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "ms013g",
+    "name": "Galaxy Grand 2 Duos",
+    "models": [
+      "SM-G7102"
+    ],
+    "soc": "Qualcomm MSM8226 Snapdragon 400",
+    "architecture": "arm",
+    "supported_versions": [
+      "16.0"
+    ],
+    "latest_lineage_version": "16.0",
+    "latest_android_version": "Android 9 Pie",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/ms013g/",
+    "builds_page_url": "https://download.lineageos.org/devices/ms013g/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "n1awifi",
+    "name": "Galaxy Note 10.1 Wi-Fi (2014)",
+    "models": [
+      "SM-P600"
+    ],
+    "soc": "Samsung Exynos 5420",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/n1awifi/",
+    "builds_page_url": "https://download.lineageos.org/devices/n1awifi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "n2awifi",
+    "name": "Galaxy Tab PRO 10.1",
+    "models": [
+      "SM-T520"
+    ],
+    "soc": "Samsung Exynos 5420",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/n2awifi/",
+    "builds_page_url": "https://download.lineageos.org/devices/n2awifi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "n5100",
+    "name": "Galaxy Note 8.0 (GSM)",
+    "models": [
+      "GT-N5100"
+    ],
+    "soc": "Samsung Exynos 4412",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power] until the screen flashes twice, then release both.",
+    "wiki_url": "https://wiki.lineageos.org/devices/n5100/",
+    "builds_page_url": "https://download.lineageos.org/devices/n5100/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "n5110",
+    "name": "Galaxy Note 8.0 (Wi-Fi)",
+    "models": [],
+    "soc": "Samsung Exynos 4412",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power] until the screen flashes twice, then release both.",
+    "wiki_url": "https://wiki.lineageos.org/devices/n5110/",
+    "builds_page_url": "https://download.lineageos.org/devices/n5110/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "n5120",
+    "name": "Galaxy Note 8.0 (LTE)",
+    "models": [],
+    "soc": "Samsung Exynos 4412",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power] until the screen flashes twice, then release both.",
+    "wiki_url": "https://wiki.lineageos.org/devices/n5120/",
+    "builds_page_url": "https://download.lineageos.org/devices/n5120/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "q5q",
+    "name": "Galaxy Z Fold5",
+    "models": [
+      "SM-F946B",
+      "SM-F946B/DS"
+    ],
+    "soc": "Qualcomm SM8550 Snapdragon 8 Gen2",
+    "architecture": "arm64",
+    "supported_versions": [
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "15",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/q5q/",
+    "builds_page_url": "https://download.lineageos.org/devices/q5q/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "r0s",
+    "name": "Galaxy S22",
+    "models": [
+      "SM-S901B",
+      "SM-S901B/DS"
+    ],
+    "soc": "Samsung Exynos 2200",
+    "architecture": "arm64",
+    "supported_versions": [
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "15",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/r0s/",
+    "builds_page_url": "https://download.lineageos.org/devices/r0s/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "r8q",
+    "name": "Galaxy S20 FE (Snapdragon)",
+    "models": [
+      "SM-G780G",
+      "SM-G780G/DS"
+    ],
+    "soc": "Qualcomm SM8250 Snapdragon 865",
+    "architecture": "arm64",
+    "supported_versions": [
+      "21",
+      "22.2",
+      "23.0",
+      "23.2"
+    ],
+    "latest_lineage_version": "23.2",
+    "latest_android_version": "Android 16 (QPR2)",
+    "required_stock_android": "13",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/r8q/",
+    "builds_page_url": "https://download.lineageos.org/devices/r8q/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "r8q",
+    "name": "Galaxy S20 FE 5G",
+    "models": [
+      "SM-G781B",
+      "SM-G781B/DS",
+      "SM-G781N",
+      "SM-G7810"
+    ],
+    "soc": "Qualcomm SM8250 Snapdragon 865",
+    "architecture": "arm64",
+    "supported_versions": [
+      "21",
+      "22.2",
+      "23.0",
+      "23.2"
+    ],
+    "latest_lineage_version": "23.2",
+    "latest_android_version": "Android 16 (QPR2)",
+    "required_stock_android": "13",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/r8q/",
+    "builds_page_url": "https://download.lineageos.org/devices/r8q/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "r8s",
+    "name": "Galaxy S20 FE (Exynos)",
+    "models": [
+      "SM-G780F",
+      "SM-G780F/DS"
+    ],
+    "soc": "Samsung Exynos 990",
+    "architecture": "arm64",
+    "supported_versions": [
+      "23.0",
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "13",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/r8s/",
+    "builds_page_url": "https://download.lineageos.org/devices/r8s/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "s3ve3gds",
+    "name": "Galaxy S III Neo (Dual SIM)",
+    "models": [
+      "GT-I9300I"
+    ],
+    "soc": "Qualcomm MSM8226 Snapdragon 400",
+    "architecture": "arm",
+    "supported_versions": [
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/s3ve3gds/",
+    "builds_page_url": "https://download.lineageos.org/devices/s3ve3gds/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "s3ve3gjv",
+    "name": "Galaxy S III Neo (Samsung Camera)",
+    "models": [
+      "GT-I9301I",
+      "GT-I9301Q"
+    ],
+    "soc": "Qualcomm MSM8226 Snapdragon 400",
+    "architecture": "arm",
+    "supported_versions": [
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/s3ve3gjv/",
+    "builds_page_url": "https://download.lineageos.org/devices/s3ve3gjv/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "s3ve3gxx",
+    "name": "Galaxy S III Neo (Sony Camera)",
+    "models": [
+      "GT-I9301I",
+      "GT-I9301Q"
+    ],
+    "soc": "Qualcomm MSM8226 Snapdragon 400",
+    "architecture": "arm",
+    "supported_versions": [
+      "16.0",
+      "17.1",
+      "18.1"
+    ],
+    "latest_lineage_version": "18.1",
+    "latest_android_version": "Android 11",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/s3ve3gxx/",
+    "builds_page_url": "https://download.lineageos.org/devices/s3ve3gxx/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "s5neolte",
+    "name": "Galaxy S5 Neo",
+    "models": [
+      "SM-G903F",
+      "SM-G903F/DS",
+      "SM-G903M",
+      "SM-G903W"
+    ],
+    "soc": "Samsung Exynos 7580",
+    "architecture": "arm64",
+    "supported_versions": [
+      "16.0",
+      "17.1"
+    ],
+    "latest_lineage_version": "17.1",
+    "latest_android_version": "Android 10",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/s5neolte/",
+    "builds_page_url": "https://download.lineageos.org/devices/s5neolte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "serrano3gxx",
+    "name": "Galaxy S4 Mini (International 3G)",
+    "models": [
+      "GT-I9190"
+    ],
+    "soc": "Qualcomm MSM8930AB Snapdragon 400",
+    "architecture": "arm",
+    "supported_versions": [
+      "13.0",
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/serrano3gxx/",
+    "builds_page_url": "https://download.lineageos.org/devices/serrano3gxx/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "serranodsdd",
+    "name": "Galaxy S4 Mini (International Dual SIM)",
+    "models": [
+      "GT-I9192"
+    ],
+    "soc": "Qualcomm MSM8930AB Snapdragon 400",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/serranodsdd/",
+    "builds_page_url": "https://download.lineageos.org/devices/serranodsdd/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "serranoltexx",
+    "name": "Galaxy S4 Mini (International LTE)",
+    "models": [
+      "GT-I9195",
+      "SGH-I257M",
+      "SHV-E370K"
+    ],
+    "soc": "Qualcomm MSM8930AB Snapdragon 400",
+    "architecture": "arm",
+    "supported_versions": [
+      "13.0",
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/serranoltexx/",
+    "builds_page_url": "https://download.lineageos.org/devices/serranoltexx/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "star2lte",
+    "name": "Galaxy S9+",
+    "models": [
+      "SM-G965F",
+      "SM-G965F/DS",
+      "SM-G965N"
+    ],
+    "soc": "Samsung Exynos 9810",
+    "architecture": "arm64",
+    "supported_versions": [
+      "15.1",
+      "17.1",
+      "20"
+    ],
+    "latest_lineage_version": "20",
+    "latest_android_version": "Android 13",
+    "required_stock_android": "10",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Bixby] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Bixby] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/star2lte/",
+    "builds_page_url": "https://download.lineageos.org/devices/star2lte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "starlte",
+    "name": "Galaxy S9",
+    "models": [
+      "SM-G960F",
+      "SM-G960F/DS",
+      "SM-G960N"
+    ],
+    "soc": "Samsung Exynos 9810",
+    "architecture": "arm64",
+    "supported_versions": [
+      "15.1",
+      "17.1",
+      "20"
+    ],
+    "latest_lineage_version": "20",
+    "latest_android_version": "Android 13",
+    "required_stock_android": "10",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Bixby] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Bixby] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/starlte/",
+    "builds_page_url": "https://download.lineageos.org/devices/starlte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "t0lte",
+    "name": "Galaxy Note 2 (LTE)",
+    "models": [
+      "GT-N7105/N7105T",
+      "SGH-I317/I317M",
+      "SGH-T889/T889V",
+      "SHV-E250S/E250K/E250L"
+    ],
+    "soc": "Samsung Exynos 4412",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/t0lte/",
+    "builds_page_url": "https://download.lineageos.org/devices/t0lte/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "v1awifi",
+    "name": "Galaxy Note Pro 12.2 Wi-Fi",
+    "models": [
+      "SM-P900"
+    ],
+    "soc": "Samsung Exynos 5420",
+    "architecture": "arm",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Home] + [Volume Down] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Home] + [Volume Up] + [Power].",
+    "wiki_url": "https://wiki.lineageos.org/devices/v1awifi/",
+    "builds_page_url": "https://download.lineageos.org/devices/v1awifi/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "x1s",
+    "name": "Galaxy S20 (4G/5G)",
+    "models": [
+      "SM-G980F",
+      "SM-G980F/DS",
+      "SM-G981B",
+      "SM-G981B/DS"
+    ],
+    "soc": "Samsung Exynos 990",
+    "architecture": "arm64",
+    "supported_versions": [
+      "23.0",
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "13",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/x1s/",
+    "builds_page_url": "https://download.lineageos.org/devices/x1s/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "y2s",
+    "name": "Galaxy S20+ (4G/5G)",
+    "models": [
+      "SM-G985F",
+      "SM-G985F/DS",
+      "SM-G986B",
+      "SM-G986B/DS"
+    ],
+    "soc": "Samsung Exynos 990",
+    "architecture": "arm64",
+    "supported_versions": [
+      "23.0",
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "13",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/y2s/",
+    "builds_page_url": "https://download.lineageos.org/devices/y2s/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "z3s",
+    "name": "Galaxy S20 Ultra (5G)",
+    "models": [
+      "SM-G988B",
+      "SM-G988B/DS"
+    ],
+    "soc": "Samsung Exynos 990",
+    "architecture": "arm64",
+    "supported_versions": [
+      "23.0",
+      "23.2",
+      "24.0"
+    ],
+    "latest_lineage_version": "24.0",
+    "latest_android_version": "Android 17",
+    "required_stock_android": "13",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Up] + [Volume Down] then connect USB cable to PC.",
+    "recovery_boot_combo": "Reboot and immediately hold [Volume Up] + [Power] while the device is connected to a PC via USB cable.",
+    "wiki_url": "https://wiki.lineageos.org/devices/z3s/",
+    "builds_page_url": "https://download.lineageos.org/devices/z3s/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "zerofltexx",
+    "name": "Galaxy S6",
+    "models": [
+      "SM-G920F"
+    ],
+    "soc": "Samsung Exynos 7420",
+    "architecture": "arm64",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/zerofltexx/",
+    "builds_page_url": "https://download.lineageos.org/devices/zerofltexx/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  },
+  {
+    "codename": "zeroltexx",
+    "name": "Galaxy S6 Edge",
+    "models": [
+      "SM-G925F"
+    ],
+    "soc": "Samsung Exynos 7420",
+    "architecture": "arm64",
+    "supported_versions": [
+      "14.1"
+    ],
+    "latest_lineage_version": "14.1",
+    "latest_android_version": "Android 7.1 Nougat",
+    "required_stock_android": "",
+    "install_method": "samloader_rs",
+    "download_boot_combo": "With the device powered off, hold [Volume Down] + [Home] + [Power].",
+    "recovery_boot_combo": "With the device powered off, hold [Volume Up] + [Home] + [Power]. When the blue text appears, release the buttons.",
+    "wiki_url": "https://wiki.lineageos.org/devices/zeroltexx/",
+    "builds_page_url": "https://download.lineageos.org/devices/zeroltexx/builds",
+    "latest_rom_filename": "",
+    "latest_rom_url": "",
+    "latest_recovery_url": "",
+    "has_active_official_builds": true
+  }
+]

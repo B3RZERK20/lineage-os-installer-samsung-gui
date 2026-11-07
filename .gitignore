@@ -1,0 +1,29 @@
+# User-specific runtime state & IDE settings (auto-created on first launch)
+installer_state.json
+.vscode/
+
+# Python bytecode & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Large generated ROMs, recovery tars, and temporary workspace files (>1GB)
+workspace_files/
+*.zip
+*.tar
+*.tar.md5
+*.img
+
+# Auto-downloaded external binaries (ADB Platform-Tools, Odin3, samloader-rs)
+# Note: We KEEP tools/samsung_lineage_db.json tracked so the 120+ Samsung database works out-of-the-box!
+tools/platform-tools/
+tools/odin3/
+tools/odin4/
+tools/samloader/
+tools/heimdall/
+tools/*.exe
+tools/*.zip
+
