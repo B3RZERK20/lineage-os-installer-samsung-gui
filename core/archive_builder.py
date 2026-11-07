@@ -13,6 +13,8 @@ SAMSUNG_DRIVER_URL = "https://developer.samsung.com/sdp/file/2663042f-1b42-4888-
 ODIN3_DOWNLOAD_URL = "https://github.com/PrivacyMap/Odin-Windows/releases/download/v3.14.1/Odin3_v3.14.1.zip"
 SAMLOADER_DOWNLOAD_URL = "https://github.com/topjohnwu/samloader-rs/releases/download/2.2.0/samloader-v2.2.0-windows-x86_64.zip"
 LINEAGE_A21S_DOWNLOAD_URL = "https://download.lineageos.org/devices/a21s/builds"
+MINDTHEGAPPS_WIKI_URL = "https://wiki.lineageos.org/gapps/"
+MINDTHEGAPPS_GITHUB_URL = "https://github.com/MindTheGapps/"
 NIKGAPPS_DOWNLOAD_URL = "https://sourceforge.net/projects/nikgapps/files/Releases/"
 
 # Exact breakdown of the 7 files shown on the official LineageOS a21s "Download builds" page:
@@ -301,6 +303,7 @@ class ArchiveBuilder:
                 shutil.copy2(source_recovery_path, target_rec)
 
             tar_out = os.path.join(self.work_dir, "A217F_LineageRecovery_Odin.tar")
+            self.log(f"[MANUAL-CLI] tar --format=ustar -cf \"{tar_out}\" -C \"{self.work_dir}\" recovery.img")
             # Odin requires standard USTAR or GNU tar with bare filename 'recovery.img' ONLY
             with tarfile.open(tar_out, "w", format=tarfile.USTAR_FORMAT) as tf:
                 tf.add(target_rec, arcname="recovery.img")
@@ -396,16 +399,24 @@ class ArchiveBuilder:
                     info["metadata_summary"] = "❌ WRONG DEVICE: This file is for 'a21', NOT 'a21s' (SM-A217F)!"
                     return info
 
-            if "nikgapps" in fname or "gapps" in fname:
+            is_gapps = ("mindthegapps" in fname) or ("nikgapps" in fname) or ("gapps" in fname)
+            if is_gapps:
                 info["is_nikgapps"] = True
                 if target_arch == "arm64" and ("arm-" in fname or "arm_" in fname or "x86" in fname) and "arm64" not in fname:
                     info["target_device_ok"] = False
-                    info["metadata_summary"] = f"❌ WRONG ARCHITECTURE: Download the '{target_arch}' NikGapps ZIP!"
+                    info["metadata_summary"] = f"❌ WRONG ARCHITECTURE: Download the '{target_arch}' GApps ZIP!"
                     return info
 
             with zipfile.ZipFile(zip_path, "r") as zf:
                 info["valid_zip"] = True
                 names = zf.namelist()
+
+                if "mindthegapps" in fname:
+                    info["metadata_summary"] = f"✅ Official LineageOS Recommended MindTheGapps ({target_arch})"
+                    return info
+                elif "nikgapps" in fname:
+                    info["metadata_summary"] = "ℹ️ NikGapps Archive (Tip: Official LineageOS recommends MindTheGapps)"
+                    return info
 
                 # Check META-INF/com/android/metadata or updater-script
                 meta_text = ""

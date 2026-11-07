@@ -38,6 +38,7 @@ class DeviceManager:
         self.get_adb_path = adb_path_getter
         self.log = log_callback or (lambda msg: None)
         self.current_status = DeviceStatus()
+        self._last_logged_mode = "disconnected"
         self._lock = threading.Lock()
 
     def _run_cmd(self, args: List[str], timeout: int = 8) -> subprocess.CompletedProcess:
@@ -72,6 +73,7 @@ class DeviceManager:
                         if state == "unauthorized":
                             status.mode = "unauthorized"
                             status.raw_details = "USB Debugging authorization pending on phone screen."
+                            self._log_mode_transition(status, f"\"{adb_exe}\" devices -l  -> {serial} unauthorized")
                             with self._lock:
                                 self.current_status = status
                             return status
@@ -80,18 +82,28 @@ class DeviceManager:
                             status.model = ""
                             status.device_codename = ""
                             status.raw_details = f"Ready for ADB Sideload ({serial})"
+                            self._log_mode_transition(status, f"\"{adb_exe}\" devices -l  -> {serial} sideload")
                             with self._lock:
                                 self.current_status = status
                             return status
                         elif state == "recovery":
                             status.mode = "recovery"
                             self._populate_adb_props(adb_exe, serial, status)
+                            self._log_mode_transition(
+                                status,
+                                f"\"{adb_exe}\" -s {serial} shell getprop ro.product.device  -> '{status.device_codename}' (recovery)"
+                            )
                             with self._lock:
                                 self.current_status = status
                             return status
                         elif state == "device":
                             status.mode = "system"
                             self._populate_adb_props(adb_exe, serial, status)
+                            self._log_mode_transition(
+                                status,
+                                f"\"{adb_exe}\" -s {serial} shell getprop ro.product.model ro.product.device ro.boot.bootloader  -> "
+                                f"model='{status.model}', device='{status.device_codename}', bootloader='{status.bootloader_version}'"
+                            )
                             with self._lock:
                                 self.current_status = status
                             return status
@@ -108,6 +120,10 @@ class DeviceManager:
                 status.device_codename = ""
                 status.usb_driver_ok = True
                 status.raw_details = dl_info.get("name", "Samsung Mobile USB Modem (Download Mode)")
+                self._log_mode_transition(
+                    status,
+                    f"Get-CimInstance Win32_PnPEntity (VID_04E8)  -> Detected '{status.raw_details}' on {status.com_port}"
+                )
                 with self._lock:
                     self.current_status = status
                 return status
@@ -116,9 +132,15 @@ class DeviceManager:
                 status.usb_driver_ok = True
                 status.raw_details = "Phone connected via USB (MTP), but USB Debugging is OFF."
 
+        self._last_logged_mode = status.mode
         with self._lock:
             self.current_status = status
         return status
+
+    def _log_mode_transition(self, status: DeviceStatus, cmd_details: str):
+        if status.mode != self._last_logged_mode:
+            self._last_logged_mode = status.mode
+            self.log(f"[VERBOSE-CMD] {cmd_details}")
 
     def _populate_adb_props(self, adb_exe: str, serial: str, status: DeviceStatus):
         """Reads system properties via ADB to verify SM-A217F, Android 12, One UI 4.1, and Bootloader state."""

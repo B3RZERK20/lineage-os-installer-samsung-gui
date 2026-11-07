@@ -19,6 +19,8 @@ from core.archive_builder import (
     ArchiveBuilder,
     SAMSUNG_DRIVER_URL,
     LINEAGE_A21S_DOWNLOAD_URL,
+    MINDTHEGAPPS_WIKI_URL,
+    MINDTHEGAPPS_GITHUB_URL,
     NIKGAPPS_DOWNLOAD_URL,
     LINEAGE_PAGE_FILES_GUIDE,
     A217F_DOWNLOAD_CATALOG,
@@ -61,7 +63,7 @@ STEPS = [
     ("3. Bootloader", "Unlock & Download Mode"),
     ("4. Flash Recovery", "Odin / VBMeta + Recovery"),
     ("5. LineageOS ROM", "Format Data & Sideload ROM"),
-    ("6. NikGapps & Boot", "Sideload GApps & Finish"),
+    ("6. Google Apps & Boot", "MindTheGapps (Rec.) / GApps"),
 ]
 
 
@@ -290,8 +292,8 @@ class LineageA21sInstallerApp(ctk.CTk):
             self._build_step6_sideload_gapps(),
         ]
 
-        # 4. Bottom Live Progress & Console Log Drawer
-        self.bottom_frame = ctk.CTkFrame(self, height=185, corner_radius=10, fg_color="#0F172A")
+        # 4. Bottom Live Progress & Verbose Under-the-Hood CLI Log Drawer
+        self.bottom_frame = ctk.CTkFrame(self, height=190, corner_radius=10, fg_color="#0F172A")
         self.bottom_frame.grid(row=2, column=1, padx=18, pady=(4, 14), sticky="ew")
         self.bottom_frame.grid_columnconfigure(0, weight=1)
 
@@ -301,15 +303,26 @@ class LineageA21sInstallerApp(ctk.CTk):
 
         self.progress_lbl = ctk.CTkLabel(
             prog_row,
-            text="Ready.",
+            text="💻 Verbose Under-the-Hood CLI Log Ready.",
             font=ctk.CTkFont(size=12, weight="bold"),
             text_color="#38BDF8"
         )
         self.progress_lbl.grid(row=0, column=0, padx=(0, 12), sticky="w")
 
         self.progress_bar = ctk.CTkProgressBar(prog_row, height=10)
-        self.progress_bar.grid(row=0, column=1, sticky="ew")
+        self.progress_bar.grid(row=0, column=1, padx=(0, 10), sticky="ew")
         self.progress_bar.set(0.0)
+
+        ctk.CTkButton(
+            prog_row,
+            text="📋 Copy Verbose Log",
+            width=130,
+            height=24,
+            font=ctk.CTkFont(size=11, weight="bold"),
+            fg_color="#334155",
+            hover_color="#475569",
+            command=self._copy_verbose_log_to_clipboard
+        ).grid(row=0, column=2, sticky="e")
 
         self.console_box = ctk.CTkTextbox(
             self.bottom_frame,
@@ -504,11 +517,20 @@ class LineageA21sInstallerApp(ctk.CTk):
 
         ctk.CTkButton(
             header_row,
-            text="🌐 Open NikGapps Download Page",
+            text="🌐 Optional: NikGapps",
             height=28,
-            fg_color="#0284C7",
-            hover_color="#0369A1",
+            fg_color="#334155",
+            hover_color="#475569",
             command=lambda: webbrowser.open(NIKGAPPS_DOWNLOAD_URL)
+        ).pack(side="right", padx=(6, 0))
+
+        ctk.CTkButton(
+            header_row,
+            text="⭐ Open MindTheGapps (Official Recommended)",
+            height=28,
+            fg_color="#10B981",
+            hover_color="#059669",
+            command=lambda: webbrowser.open(MINDTHEGAPPS_WIKI_URL)
         ).pack(side="right", padx=(6, 0))
 
         ctk.CTkButton(
@@ -522,7 +544,7 @@ class LineageA21sInstallerApp(ctk.CTk):
 
         ctk.CTkLabel(
             web_map_card,
-            text="The LineageOS website lists 7 files. You ONLY need 2 of them (plus 1 NikGapps ZIP):",
+            text="The LineageOS website lists 7 files. You ONLY need 2 of them (plus optional MindTheGapps — officially recommended by LineageOS — or NikGapps):",
             font=ctk.CTkFont(size=12),
             text_color="#E2E8F0"
         ).pack(anchor="w", padx=14, pady=(0, 6))
@@ -607,12 +629,12 @@ class LineageA21sInstallerApp(ctk.CTk):
         self.rom_meta_lbl = ctk.CTkLabel(files_card, text="", font=ctk.CTkFont(size=12), text_color="#9CA3AF")
         self.rom_meta_lbl.grid(row=4, column=1, columnspan=2, padx=12, pady=(0, 4), sticky="w")
 
-        # 3. NikGapps ZIP row
+        # 3. MindTheGapps (Recommended) or NikGapps ZIP row
         self.gapps_row_lbl, self.gapps_entry = self._create_file_row(
             files_card,
             row=5,
-            label=f"3. NikGapps-core-{self.active_profile.architecture}-...-signed.zip:",
-            placeholder=f"Select 'NikGapps-core-{self.active_profile.architecture}-...-signed.zip'...",
+            label=f"3. MindTheGapps (Recommended) / NikGapps ({self.active_profile.architecture}):",
+            placeholder=f"Select 'MindTheGapps-...-{self.active_profile.architecture}-...zip' (Official Recommended) or 'NikGapps-...zip'...",
             initial_val=self.app_state.get("nikgapps_zip_path", ""),
             browse_cmd=self._browse_gapps
         )
@@ -708,7 +730,14 @@ class LineageA21sInstallerApp(ctk.CTk):
         self.chk_fw_lbl.pack(anchor="w", padx=20, pady=4)
 
         self.chk_bl_lbl = ctk.CTkLabel(check_card, text="⏳ 4. Bootloader & OEM Unlock Status: Waiting...", font=ctk.CTkFont(size=13))
-        self.chk_bl_lbl.pack(anchor="w", padx=20, pady=(4, 14))
+        self.chk_bl_lbl.pack(anchor="w", padx=20, pady=(4, 10))
+
+        ctk.CTkLabel(
+            check_card,
+            text="💻 Manual CLI Under-the-Hood:  adb devices -l   |   adb shell getprop ro.product.model ro.product.device ro.boot.bootloader",
+            font=ctk.CTkFont(family="Consolas", size=11, weight="bold"),
+            text_color="#93C5FD"
+        ).pack(anchor="w", padx=20, pady=(0, 12))
 
         # Visual Guide on Enabling USB Debugging & OEM Unlocking
         guide_card = ctk.CTkFrame(frame, corner_radius=10, fg_color="#1E293B")
@@ -818,7 +847,14 @@ class LineageA21sInstallerApp(ctk.CTk):
             font=ctk.CTkFont(size=13),
             text_color="#E5E7EB"
         )
-        self.step3_combo_body_lbl.pack(anchor="w", padx=16, pady=(0, 14))
+        self.step3_combo_body_lbl.pack(anchor="w", padx=16, pady=(0, 8))
+
+        ctk.CTkLabel(
+            dl_card,
+            text="💻 Manual CLI Under-the-Hood:  adb reboot download",
+            font=ctk.CTkFont(family="Consolas", size=11, weight="bold"),
+            text_color="#93C5FD"
+        ).pack(anchor="w", padx=16, pady=(0, 12))
 
         nav_frame = ctk.CTkFrame(frame, fg_color="transparent")
         nav_frame.pack(fill="x", padx=16, pady=8)
@@ -942,6 +978,13 @@ class LineageA21sInstallerApp(ctk.CTk):
             hover_color="#475569",
             command=self._copy_tar_path_to_clipboard
         ).pack(side="left")
+
+        ctk.CTkLabel(
+            card_4a,
+            text="💻 Manual CLI Under-the-Hood:  tar --format=ustar -cf recovery.tar recovery.img   |   samloader flash --partition RECOVERY recovery.img --no-reboot",
+            font=ctk.CTkFont(family="Consolas", size=11, weight="bold"),
+            text_color="#93C5FD"
+        ).pack(anchor="w", padx=16, pady=(0, 10))
 
         # SUB-STEP 4B: Exact 3 Clicks Inside Odin3 Window
         card_4b = ctk.CTkFrame(frame, corner_radius=10, fg_color="#172554")
@@ -1092,6 +1135,13 @@ class LineageA21sInstallerApp(ctk.CTk):
             command=self._on_patch_and_sideload_lineage_clicked
         ).pack(side="left")
 
+        ctk.CTkLabel(
+            sideload_card,
+            text="💻 Manual CLI Under-the-Hood:  adb sideload lineage-<version>-<date>-nightly-<codename>-signed.zip",
+            font=ctk.CTkFont(family="Consolas", size=11, weight="bold"),
+            text_color="#93C5FD"
+        ).pack(anchor="w", padx=16, pady=(0, 10))
+
         # Binary Check Error Explanation & Official Firmware Option Card
         binc_card = ctk.CTkFrame(frame, corner_radius=10, fg_color="#3B1818")
         binc_card.pack(fill="x", padx=16, pady=6)
@@ -1136,7 +1186,7 @@ class LineageA21sInstallerApp(ctk.CTk):
         nav_frame.pack(fill="x", padx=16, pady=8)
         self.step5_next_btn = ctk.CTkButton(
             nav_frame,
-            text=f"LineageOS {self.active_profile.latest_lineage_version} Installed -> Proceed to Step 6 (Install NikGapps) →",
+            text=f"LineageOS {self.active_profile.latest_lineage_version} Installed -> Proceed to Step 6 (Install MindTheGapps / GApps) →",
             height=42,
             font=ctk.CTkFont(size=14, weight="bold"),
             fg_color="#10B981",
@@ -1148,7 +1198,7 @@ class LineageA21sInstallerApp(ctk.CTk):
         return frame
 
     # -------------------------------------------------------------------------
-    # STEP 6: SIDELOAD NIKGAPPS & FIRST BOOT
+    # STEP 6: SIDELOAD MINDTHEGAPPS (RECOMMENDED) / NIKGAPPS & FIRST BOOT
     # -------------------------------------------------------------------------
     def _build_step6_sideload_gapps(self) -> ctk.CTkScrollableFrame:
         frame = ctk.CTkScrollableFrame(self.main_container, corner_radius=12)
@@ -1156,14 +1206,18 @@ class LineageA21sInstallerApp(ctk.CTk):
 
         self.step6_title_lbl = ctk.CTkLabel(
             frame,
-            text=f"Step 6: Flash NikGapps ({self.active_profile.architecture}) & Boot into LineageOS {self.active_profile.latest_lineage_version}!",
+            text=f"Step 6: Flash MindTheGapps (Official Recommended) / GApps ({self.active_profile.architecture}) & Boot!",
             font=ctk.CTkFont(size=20, weight="bold")
         )
         self.step6_title_lbl.pack(anchor="w", padx=16, pady=(12, 4))
 
         ctk.CTkLabel(
             frame,
-            text="IMPORTANT: Flash NikGapps BEFORE booting into LineageOS for the first time so Google Play Services gets system permissions.",
+            text=(
+                "⭐ OFFICIAL LINEAGEOS RECOMMENDATION: Use MindTheGapps (https://wiki.lineageos.org/gapps/) for the cleanest, officially supported Google Apps experience!\n"
+                "IMPORTANT: Flash GApps BEFORE booting into LineageOS for the first time so Google Play Services gets system permissions."
+            ),
+            justify="left",
             font=ctk.CTkFont(size=13),
             text_color="#FBBF24"
         ).pack(anchor="w", padx=16, pady=(0, 12))
@@ -1173,7 +1227,7 @@ class LineageA21sInstallerApp(ctk.CTk):
 
         ctk.CTkLabel(
             prep_card,
-            text="1. Prepare Recovery for NikGapps",
+            text="1. Prepare Recovery for MindTheGapps (or NikGapps)",
             font=ctk.CTkFont(size=15, weight="bold"),
             text_color="#38BDF8"
         ).pack(anchor="w", padx=16, pady=(12, 6))
@@ -1183,7 +1237,7 @@ class LineageA21sInstallerApp(ctk.CTk):
             text=(
                 f"• On your Samsung {self.active_profile.name} in Recovery: Tap 'Advanced' -> 'Reboot to recovery' (this reloads the updated partition layout).\n"
                 "• Once Recovery reloads, tap 'Apply update' -> 'Apply from ADB'.\n"
-                "• Note: If Recovery asks 'Signature verification failed — Install anyway?', tap 'Yes' (NikGapps uses its own key)."
+                "• Note: When Recovery asks 'Signature verification failed — Install anyway?', tap 'Yes' (MindTheGapps & NikGapps are signed with their own keys, not the LineageOS key)."
             ),
             justify="left",
             font=ctk.CTkFont(size=13),
@@ -1196,17 +1250,17 @@ class LineageA21sInstallerApp(ctk.CTk):
 
         ctk.CTkLabel(
             gapps_card,
-            text="2. Sideload NikGapps Package & Reboot to System",
+            text="2. Sideload Google Apps (MindTheGapps Recommended / NikGapps) & Reboot to System",
             font=ctk.CTkFont(size=15, weight="bold"),
             text_color="#10B981"
         ).pack(anchor="w", padx=16, pady=(12, 6))
 
         btn_row = ctk.CTkFrame(gapps_card, fg_color="transparent")
-        btn_row.pack(fill="x", padx=16, pady=(4, 14))
+        btn_row.pack(fill="x", padx=16, pady=(4, 10))
 
         ctk.CTkButton(
             btn_row,
-            text="🚀 Start NikGapps Automated ADB Sideload",
+            text="🚀 Start MindTheGapps / GApps Automated ADB Sideload",
             height=46,
             font=ctk.CTkFont(size=14, weight="bold"),
             fg_color="#0284C7",
@@ -1224,6 +1278,13 @@ class LineageA21sInstallerApp(ctk.CTk):
             command=lambda: self._run_async(lambda: self.device_mgr.reboot_to(""))
         )
         self.step6_reboot_btn.pack(side="left")
+
+        ctk.CTkLabel(
+            gapps_card,
+            text="💻 Manual CLI Under-the-Hood:  adb reboot recovery   ->   adb sideload MindTheGapps-<version>-<arch>-<date>.zip   ->   adb reboot",
+            font=ctk.CTkFont(family="Consolas", size=11, weight="bold"),
+            text_color="#93C5FD"
+        ).pack(anchor="w", padx=16, pady=(0, 12))
 
         return frame
 
@@ -1428,6 +1489,14 @@ class LineageA21sInstallerApp(ctk.CTk):
         )
         accept_btn.pack(side="right")
 
+    def _copy_verbose_log_to_clipboard(self):
+        full_log = self.console_box.get("1.0", "end").strip()
+        self.clipboard_clear()
+        self.clipboard_append(full_log)
+        self.update()
+        self.log_message("[CLIPBOARD] Full verbose command log copied to clipboard.")
+        messagebox.showinfo("Verbose Log Copied!", "Copied the full under-the-hood command log to your clipboard!")
+
     def _refresh_active_profile_ui(self):
         p = self.active_profile
         models_str = ", ".join(p.models[:4]) if p.models else p.codename
@@ -1439,7 +1508,7 @@ class LineageA21sInstallerApp(ctk.CTk):
         )
         req_base = f"Android {p.required_stock_android}" if p.required_stock_android else "Latest Stock One UI"
         self.top_subtitle_lbl.configure(
-            text=f"Max Official Support: LineageOS {p.latest_lineage_version} ({p.latest_android_version}) + NikGapps ({p.architecture})  |  Required Base: {req_base}"
+            text=f"Max Official Support: LineageOS {p.latest_lineage_version} ({p.latest_android_version}) + MindTheGapps (Rec.) / GApps ({p.architecture})  |  Required Base: {req_base}"
         )
         cur_st = self.device_mgr.current_status
         if cur_st.mode == "disconnected":
@@ -1457,7 +1526,7 @@ class LineageA21sInstallerApp(ctk.CTk):
             f"✅ Device: Samsung {p.name}  |  Codename: {p.codename}  |  Models: {models_str}\n"
             f"🚀 Latest Supported LineageOS:  LineageOS {p.latest_lineage_version} ({p.latest_android_version})   [All Supported Branches: {all_vers}]\n"
             f"🔧 SoC / Arch: {p.soc} ({p.architecture})  |  Required Stock Firmware Before Flashing: {req_base}\n"
-            f"📦 Exact ROM File to Download:  {rom_hint}   +   recovery.img   +   NikGapps-core-{p.architecture}-...zip"
+            f"📦 Exact Files to Download:  {rom_hint}  +  recovery.img  +  MindTheGapps-...-{p.architecture}-...zip (Official Recommended)"
         )
         self.advisor_info_lbl.configure(text=advisor_txt)
 
@@ -1468,8 +1537,10 @@ class LineageA21sInstallerApp(ctk.CTk):
 
         self.rom_row_lbl.configure(text=f"2. lineage-{p.latest_lineage_version}-...-{p.codename}-signed.zip:")
         self.rom_entry.configure(placeholder_text=f"Select '{rom_hint}'...")
-        self.gapps_row_lbl.configure(text=f"3. NikGapps-core-{p.architecture}-...-signed.zip:")
-        self.gapps_entry.configure(placeholder_text=f"Select 'NikGapps-core-{p.architecture}-...-signed.zip'...")
+        self.gapps_row_lbl.configure(text=f"3. MindTheGapps (Recommended) / NikGapps ({p.architecture}):")
+        self.gapps_entry.configure(
+            placeholder_text=f"Select 'MindTheGapps-...-{p.architecture}-...zip' (Official Recommended) or 'NikGapps-...zip'..."
+        )
 
         # 4. Step 2 Titles & Waiting Labels
         self.step2_title_lbl.configure(text=f"Step 2: Connect Samsung {p.name} ({p.codename}) & Pre-Flight Check")
@@ -1531,16 +1602,16 @@ class LineageA21sInstallerApp(ctk.CTk):
         self.step5_sideload_btn.configure(text=f"🚀 Start LineageOS {p.latest_lineage_version} Automated ADB Sideload")
         self.step5_samfw_btn.configure(text=f"🌐 Open SamFw ({first_model} Stock Firmware)")
         self.step5_next_btn.configure(
-            text=f"LineageOS {p.latest_lineage_version} Installed -> Proceed to Step 6 (Install NikGapps) →"
+            text=f"LineageOS {p.latest_lineage_version} Installed -> Proceed to Step 6 (Install MindTheGapps / GApps) →"
         )
         self.step6_title_lbl.configure(
-            text=f"Step 6: Flash NikGapps ({p.architecture}) & Boot into LineageOS {p.latest_lineage_version}!"
+            text=f"Step 6: Flash MindTheGapps (Official Recommended) / GApps ({p.architecture}) & Boot into LineageOS {p.latest_lineage_version}!"
         )
         self.step6_prep_lbl.configure(
             text=(
                 f"• On your Samsung {p.name} in Recovery: Tap 'Advanced' -> 'Reboot to recovery' (this reloads the updated partition layout).\n"
                 "• Once Recovery reloads, tap 'Apply update' -> 'Apply from ADB'.\n"
-                "• Note: If Recovery asks 'Signature verification failed — Install anyway?', tap 'Yes' (NikGapps uses its own key)."
+                "• Note: When Recovery asks 'Signature verification failed — Install anyway?', tap 'Yes' (MindTheGapps & NikGapps use their own keys)."
             )
         )
         self.step6_reboot_btn.configure(text=f"🎉 Reboot Phone into LineageOS {p.latest_lineage_version} System")
@@ -1621,7 +1692,7 @@ class LineageA21sInstallerApp(ctk.CTk):
 
     def _browse_gapps(self):
         path = filedialog.askopenfilename(
-            title="Select NikGapps ZIP",
+            title="Select MindTheGapps (Recommended) or NikGapps ZIP",
             filetypes=[("ZIP Archives", "*.zip"), ("All Files", "*.*")]
         )
         if path:
@@ -1629,7 +1700,7 @@ class LineageA21sInstallerApp(ctk.CTk):
             self.gapps_entry.insert(0, path)
             self.app_state["nikgapps_zip_path"] = path
             self._save_state()
-            self.log_message(f"[FILE] Selected NikGapps ZIP: {path}")
+            self.log_message(f"[FILE] Selected Google Apps (MindTheGapps / GApps) ZIP: {path}")
             self._refresh_step1_badges()
 
     def _browse_vbmeta(self):
@@ -1683,12 +1754,12 @@ class LineageA21sInstallerApp(ctk.CTk):
                     self.app_state["lineage_zip_path"] = fpath
                     found_any.append(f"LineageOS ROM: {os.path.basename(fpath)}")
 
-                # 3. NikGapps ZIP
-                elif not self.gapps_entry.get().strip() and ("nikgapps" in fname or "gapps" in fname) and fname.endswith(".zip"):
+                # 3. MindTheGapps (Recommended) or NikGapps ZIP
+                elif not self.gapps_entry.get().strip() and ("mindthegapps" in fname or "nikgapps" in fname or "gapps" in fname) and fname.endswith(".zip"):
                     self.gapps_entry.delete(0, "end")
                     self.gapps_entry.insert(0, fpath)
                     self.app_state["nikgapps_zip_path"] = fpath
-                    found_any.append(f"NikGapps: {os.path.basename(fpath)}")
+                    found_any.append(f"Google Apps (GApps): {os.path.basename(fpath)}")
 
                 # 4. Optional vbmeta.img
                 elif not self.vbmeta_entry.get().strip() and fname == "vbmeta.img":
@@ -1838,21 +1909,23 @@ class LineageA21sInstallerApp(ctk.CTk):
     def _on_sideload_gapps_clicked(self):
         gapps_path = self.gapps_entry.get().strip()
         if not gapps_path or not os.path.exists(gapps_path):
-            messagebox.showwarning("Missing NikGapps ZIP", "Please select your NikGapps .zip file in Step 1 first.")
+            messagebox.showwarning("Missing Google Apps ZIP", "Please select your MindTheGapps (recommended) or NikGapps .zip file in Step 1 first.")
             self.select_step(0)
             return
+
+        gapps_label = "MindTheGapps" if "mindthegapps" in os.path.basename(gapps_path).lower() else "Google Apps (GApps)"
 
         def task():
             ok, msg = self.flash_engine.sideload_package(
                 zip_path=gapps_path,
-                label="NikGapps",
+                label=gapps_label,
                 progress_cb=self.set_progress
             )
             if ok:
                 self.after(0, lambda: self.mark_step_completed(5))
                 self.after(0, lambda: messagebox.showinfo(
                     "Installation Complete!",
-                    "LineageOS 24 + NikGapps have been sideloaded!\n\nTap 'Reboot system now' on your phone (or click the green Reboot button) to enjoy LineageOS 24!"
+                    f"LineageOS {self.active_profile.latest_lineage_version} + {gapps_label} have been sideloaded!\n\nTap 'Reboot system now' on your phone (or click the green Reboot button) to enjoy LineageOS!"
                 ))
         self._run_async(task)
 

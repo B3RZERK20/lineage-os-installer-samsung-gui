@@ -240,8 +240,10 @@ class FlashEngine:
             return False, f"{label} ZIP file not found: {zip_path}"
 
         cmd = [adb_exe, "sideload", zip_path]
+        quoted_cmd = " ".join(f'"{arg}"' for arg in cmd)
         self.log(f"[SIDELOAD] Starting {label} sideload: {os.path.basename(zip_path)}")
-        self.log(f"[CMD] {' '.join(cmd)}")
+        self.log(f"[VERBOSE-CMD] Executing: {quoted_cmd}")
+        self.log(f"[MANUAL-CLI] Manual terminal equivalent: adb sideload \"{zip_path}\"")
 
         if progress_cb:
             progress_cb(0.05, f"Starting ADB Sideload for {label}...")
@@ -271,6 +273,7 @@ class FlashEngine:
                     progress_cb(min(0.98, max(0.05, pct)), f"Sideloading {label}: {m.group(1)}%")
 
             proc.wait()
+            self.log(f"[VERBOSE-EXIT] adb sideload process finished with returncode={proc.returncode} (saw_xfer={saw_xfer})")
             if proc.returncode == 0 or saw_xfer:
                 if progress_cb:
                     progress_cb(1.0, f"{label} sideloaded successfully!")
